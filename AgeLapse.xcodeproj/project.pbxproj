@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA01FAF023EE6F7300E65001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01FAEF23EE6F7300E65001 /* AppDelegate.swift */; };
+		BA01FAF223EE6F7300E65001 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01FAF123EE6F7300E65001 /* SceneDelegate.swift */; };
+		BA01FAF423EE6F7300E65001 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01FAF323EE6F7300E65001 /* HomeVC.swift */; };
+		BA01FAF723EE6F7300E65001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA01FAF523EE6F7300E65001 /* Main.storyboard */; };
+		BA01FAF923EE6F7500E65001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA01FAF823EE6F7500E65001 /* Assets.xcassets */; };
+		BA01FAFC23EE6F7500E65001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA01FAFA23EE6F7500E65001 /* LaunchScreen.storyboard */; };
+		BA01FB0723EE6F7500E65001 /* AgeLapseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01FB0623EE6F7500E65001 /* AgeLapseTests.swift */; };
+		BA01FB1223EE6F7500E65001 /* AgeLapseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01FB1123EE6F7500E65001 /* AgeLapseUITests.swift */; };
+		BA98D7E723EF491C00D7F542 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98D7E623EF491C00D7F542 /* SettingsVC.swift */; };
+		BAA06AA623F5C3BC00E70469 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA06AA523F5C3BC00E70469 /* ImageStore.swift */; };
+		BAA06AA823F5C8D700E70469 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA06AA723F5C8D700E70469 /* Photo.swift */; };
+		BAA06AAA23F713A400E70469 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA06AA923F713A400E70469 /* PhotoStore.swift */; };
+		BAB6C44923F1CD3900BA8F1F /* switch_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB6C44823F1CD3900BA8F1F /* switch_cell.swift */; };
+		BAB6C44B23F1CEC600BA8F1F /* time_picker_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB6C44A23F1CEC600BA8F1F /* time_picker_cell.swift */; };
+		BABB009624089D1A00637899 /* CreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB009524089D1A00637899 /* CreateVC.swift */; };
+		BAE5560F240704BA006382AF /* daily_switch_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE5560E240704BA006382AF /* daily_switch_cell.swift */; };
+		BAFCEBD723F1DF32003F02FC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCEBD623F1DF32003F02FC /* Settings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA01FB0323EE6F7500E65001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA01FAE423EE6F7300E65001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA01FAEB23EE6F7300E65001;
+			remoteInfo = AgeLapse;
+		};
+		BA01FB0E23EE6F7500E65001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA01FAE423EE6F7300E65001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA01FAEB23EE6F7300E65001;
+			remoteInfo = AgeLapse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA01FAEC23EE6F7300E65001 /* Agelpse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agelpse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA01FAEF23EE6F7300E65001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA01FAF123EE6F7300E65001 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA01FAF323EE6F7300E65001 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		BA01FAF623EE6F7300E65001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA01FAF823EE6F7500E65001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA01FAFB23EE6F7500E65001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA01FAFD23EE6F7500E65001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA01FB0223EE6F7500E65001 /* AgeLapseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeLapseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA01FB0623EE6F7500E65001 /* AgeLapseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeLapseTests.swift; sourceTree = "<group>"; };
+		BA01FB0823EE6F7500E65001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA01FB0D23EE6F7500E65001 /* AgeLapseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeLapseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA01FB1123EE6F7500E65001 /* AgeLapseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeLapseUITests.swift; sourceTree = "<group>"; };
+		BA01FB1323EE6F7500E65001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA98D7E623EF491C00D7F542 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		BAA06AA523F5C3BC00E70469 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		BAA06AA723F5C8D700E70469 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		BAA06AA923F713A400E70469 /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
+		BAB6C44823F1CD3900BA8F1F /* switch_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switch_cell.swift; sourceTree = "<group>"; };
+		BAB6C44A23F1CEC600BA8F1F /* time_picker_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = time_picker_cell.swift; sourceTree = "<group>"; };
+		BABB009524089D1A00637899 /* CreateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVC.swift; sourceTree = "<group>"; };
+		BAE5560E240704BA006382AF /* daily_switch_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daily_switch_cell.swift; sourceTree = "<group>"; };
+		BAFCEBD623F1DF32003F02FC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA01FAE923EE6F7300E65001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA01FAFF23EE6F7500E65001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA01FB0A23EE6F7500E65001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA01FAE323EE6F7300E65001 = {
+			isa = PBXGroup;
+			children = (
+				BA01FAEE23EE6F7300E65001 /* AgeLapse */,
+				BA01FB0523EE6F7500E65001 /* AgeLapseTests */,
+				BA01FB1023EE6F7500E65001 /* AgeLapseUITests */,
+				BA01FAED23EE6F7300E65001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA01FAED23EE6F7300E65001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA01FAEC23EE6F7300E65001 /* Agelpse.app */,
+				BA01FB0223EE6F7500E65001 /* AgeLapseTests.xctest */,
+				BA01FB0D23EE6F7500E65001 /* AgeLapseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA01FAEE23EE6F7300E65001 /* AgeLapse */ = {
+			isa = PBXGroup;
+			children = (
+				BA01FAEF23EE6F7300E65001 /* AppDelegate.swift */,
+				BA01FAF123EE6F7300E65001 /* SceneDelegate.swift */,
+				BABB009524089D1A00637899 /* CreateVC.swift */,
+				BA98D7E623EF491C00D7F542 /* SettingsVC.swift */,
+				BA01FAF323EE6F7300E65001 /* HomeVC.swift */,
+				BA01FAF523EE6F7300E65001 /* Main.storyboard */,
+				BAA06AA723F5C8D700E70469 /* Photo.swift */,
+				BAA06AA923F713A400E70469 /* PhotoStore.swift */,
+				BAA06AA523F5C3BC00E70469 /* ImageStore.swift */,
+				BAB6C44823F1CD3900BA8F1F /* switch_cell.swift */,
+				BAE5560E240704BA006382AF /* daily_switch_cell.swift */,
+				BAB6C44A23F1CEC600BA8F1F /* time_picker_cell.swift */,
+				BAFCEBD623F1DF32003F02FC /* Settings.swift */,
+				BA01FAF823EE6F7500E65001 /* Assets.xcassets */,
+				BA01FAFA23EE6F7500E65001 /* LaunchScreen.storyboard */,
+				BA01FAFD23EE6F7500E65001 /* Info.plist */,
+			);
+			path = AgeLapse;
+			sourceTree = "<group>";
+		};
+		BA01FB0523EE6F7500E65001 /* AgeLapseTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA01FB0623EE6F7500E65001 /* AgeLapseTests.swift */,
+				BA01FB0823EE6F7500E65001 /* Info.plist */,
+			);
+			path = AgeLapseTests;
+			sourceTree = "<group>";
+		};
+		BA01FB1023EE6F7500E65001 /* AgeLapseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA01FB1123EE6F7500E65001 /* AgeLapseUITests.swift */,
+				BA01FB1323EE6F7500E65001 /* Info.plist */,
+			);
+			path = AgeLapseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA01FAEB23EE6F7300E65001 /* AgeLapse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA01FB1623EE6F7500E65001 /* Build configuration list for PBXNativeTarget "AgeLapse" */;
+			buildPhases = (
+				BA01FAE823EE6F7300E65001 /* Sources */,
+				BA01FAE923EE6F7300E65001 /* Frameworks */,
+				BA01FAEA23EE6F7300E65001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgeLapse;
+			productName = AgeLapse;
+			productReference = BA01FAEC23EE6F7300E65001 /* Agelpse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA01FB0123EE6F7500E65001 /* AgeLapseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA01FB1923EE6F7500E65001 /* Build configuration list for PBXNativeTarget "AgeLapseTests" */;
+			buildPhases = (
+				BA01FAFE23EE6F7500E65001 /* Sources */,
+				BA01FAFF23EE6F7500E65001 /* Frameworks */,
+				BA01FB0023EE6F7500E65001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA01FB0423EE6F7500E65001 /* PBXTargetDependency */,
+			);
+			name = AgeLapseTests;
+			productName = AgeLapseTests;
+			productReference = BA01FB0223EE6F7500E65001 /* AgeLapseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA01FB0C23EE6F7500E65001 /* AgeLapseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA01FB1C23EE6F7500E65001 /* Build configuration list for PBXNativeTarget "AgeLapseUITests" */;
+			buildPhases = (
+				BA01FB0923EE6F7500E65001 /* Sources */,
+				BA01FB0A23EE6F7500E65001 /* Frameworks */,
+				BA01FB0B23EE6F7500E65001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA01FB0F23EE6F7500E65001 /* PBXTargetDependency */,
+			);
+			name = AgeLapseUITests;
+			productName = AgeLapseUITests;
+			productReference = BA01FB0D23EE6F7500E65001 /* AgeLapseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA01FAE423EE6F7300E65001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Dillan Johnson";
+				TargetAttributes = {
+					BA01FAEB23EE6F7300E65001 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					BA01FB0123EE6F7500E65001 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = BA01FAEB23EE6F7300E65001;
+					};
+					BA01FB0C23EE6F7500E65001 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = BA01FAEB23EE6F7300E65001;
+					};
+				};
+			};
+			buildConfigurationList = BA01FAE723EE6F7300E65001 /* Build configuration list for PBXProject "AgeLapse" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA01FAE323EE6F7300E65001;
+			productRefGroup = BA01FAED23EE6F7300E65001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA01FAEB23EE6F7300E65001 /* AgeLapse */,
+				BA01FB0123EE6F7500E65001 /* AgeLapseTests */,
+				BA01FB0C23EE6F7500E65001 /* AgeLapseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA01FAEA23EE6F7300E65001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA01FAFC23EE6F7500E65001 /* LaunchScreen.storyboard in Resources */,
+				BA01FAF923EE6F7500E65001 /* Assets.xcassets in Resources */,
+				BA01FAF723EE6F7300E65001 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA01FB0023EE6F7500E65001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA01FB0B23EE6F7500E65001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA01FAE823EE6F7300E65001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB6C44B23F1CEC600BA8F1F /* time_picker_cell.swift in Sources */,
+				BA01FAF423EE6F7300E65001 /* HomeVC.swift in Sources */,
+				BA98D7E723EF491C00D7F542 /* SettingsVC.swift in Sources */,
+				BAA06AA823F5C8D700E70469 /* Photo.swift in Sources */,
+				BA01FAF023EE6F7300E65001 /* AppDelegate.swift in Sources */,
+				BAA06AA623F5C3BC00E70469 /* ImageStore.swift in Sources */,
+				BAFCEBD723F1DF32003F02FC /* Settings.swift in Sources */,
+				BAA06AAA23F713A400E70469 /* PhotoStore.swift in Sources */,
+				BAE5560F240704BA006382AF /* daily_switch_cell.swift in Sources */,
+				BA01FAF223EE6F7300E65001 /* SceneDelegate.swift in Sources */,
+				BABB009624089D1A00637899 /* CreateVC.swift in Sources */,
+				BAB6C44923F1CD3900BA8F1F /* switch_cell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA01FAFE23EE6F7500E65001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA01FB0723EE6F7500E65001 /* AgeLapseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA01FB0923EE6F7500E65001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA01FB1223EE6F7500E65001 /* AgeLapseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA01FB0423EE6F7500E65001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA01FAEB23EE6F7300E65001 /* AgeLapse */;
+			targetProxy = BA01FB0323EE6F7500E65001 /* PBXContainerItemProxy */;
+		};
+		BA01FB0F23EE6F7500E65001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA01FAEB23EE6F7300E65001 /* AgeLapse */;
+			targetProxy = BA01FB0E23EE6F7500E65001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA01FAF523EE6F7300E65001 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA01FAF623EE6F7300E65001 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA01FAFA23EE6F7500E65001 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA01FAFB23EE6F7500E65001 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA01FB1423EE6F7500E65001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA01FB1523EE6F7500E65001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA01FB1723EE6F7500E65001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R4642LM9F;
+				INFOPLIST_FILE = AgeLapse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = johnson.dillan.AgeLapse;
+				PRODUCT_NAME = Agelpse;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA01FB1823EE6F7500E65001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R4642LM9F;
+				INFOPLIST_FILE = AgeLapse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = johnson.dillan.AgeLapse;
+				PRODUCT_NAME = Agelpse;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA01FB1A23EE6F7500E65001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R4642LM9F;
+				INFOPLIST_FILE = AgeLapseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = johnson.dillan.AgeLapseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgeLapse.app/AgeLapse";
+			};
+			name = Debug;
+		};
+		BA01FB1B23EE6F7500E65001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R4642LM9F;
+				INFOPLIST_FILE = AgeLapseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = johnson.dillan.AgeLapseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgeLapse.app/AgeLapse";
+			};
+			name = Release;
+		};
+		BA01FB1D23EE6F7500E65001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R4642LM9F;
+				INFOPLIST_FILE = AgeLapseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = johnson.dillan.AgeLapseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgeLapse;
+			};
+			name = Debug;
+		};
+		BA01FB1E23EE6F7500E65001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R4642LM9F;
+				INFOPLIST_FILE = AgeLapseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = johnson.dillan.AgeLapseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgeLapse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA01FAE723EE6F7300E65001 /* Build configuration list for PBXProject "AgeLapse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA01FB1423EE6F7500E65001 /* Debug */,
+				BA01FB1523EE6F7500E65001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA01FB1623EE6F7500E65001 /* Build configuration list for PBXNativeTarget "AgeLapse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA01FB1723EE6F7500E65001 /* Debug */,
+				BA01FB1823EE6F7500E65001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA01FB1923EE6F7500E65001 /* Build configuration list for PBXNativeTarget "AgeLapseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA01FB1A23EE6F7500E65001 /* Debug */,
+				BA01FB1B23EE6F7500E65001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA01FB1C23EE6F7500E65001 /* Build configuration list for PBXNativeTarget "AgeLapseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA01FB1D23EE6F7500E65001 /* Debug */,
+				BA01FB1E23EE6F7500E65001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA01FAE423EE6F7300E65001 /* Project object */;
+}
