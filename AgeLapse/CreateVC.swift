@@ -18,18 +18,34 @@ class CreateVC: UIViewController {
     
     @IBOutlet var generateButton: UIButton!
     
+    var photoStore: PhotoStore!
+    var imageStore: ImageStore!
+    let photoDataSource = PhotoDataSource()
+    
+    
+    
+    
+    
+    
     
     
     override func viewDidLoad(){
         super.viewDidLoad()
-//        let screenSize: CGRect = UIScreen.main.bounds
-//        let screenHeight = screenSize.height
-//        let screenWidth = screenSize.width
         
+        collectionView.dataSource = photoDataSource
+        self.photoDataSource.photos = photoStore.allPhotos
+        print("when loading the createVC the photoCount is: \(photoStore.allPhotos.count)")
+        self.collectionView.reloadSections(IndexSet(integer: 0))
+        print("just reloaded sections")
         addPhotosButton.layer.cornerRadius = 22
         generateButton.layer.cornerRadius = 22
-
     }
     
     
 }
+
+//extension CreateVC {
+//    override func numberOfSections(in collectionView: UICollectionView)-> Int {
+//        
+//    }
+//}

@@ -22,6 +22,7 @@ class PhotoStore {
         // check to see if there are archived photos
         if let archivedPhotos = NSKeyedUnarchiver.unarchiveObject(withFile: photoArchiveURL.path) as? [Photo]{
             allPhotos = archivedPhotos
+            print("allPhotos.count in PhotoStore init(): \(allPhotos.count)")
         }
     }
     
@@ -32,7 +33,8 @@ class PhotoStore {
     }
     
     func saveChanges() -> Bool {
-//        print("saving photos to \(photoArchiveURL.path)")
+        print("saving photos to \(photoArchiveURL.path)")
+        print("when saving photos, photoCount: \(allPhotos.count)")
         return NSKeyedArchiver.archiveRootObject(allPhotos, toFile: photoArchiveURL.path)
     }
 }

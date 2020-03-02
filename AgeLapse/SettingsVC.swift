@@ -23,7 +23,7 @@ class SettingsVC: UITableViewController {
             createNotification()
             print("created Notification")
         }
-        self.dismiss(animated: true, completion: nil)
+        navigationController?.popToRootViewController(animated: true)
      }
     
     @IBAction func remindMeToggle(_ sender: UISwitch) {
@@ -42,11 +42,6 @@ class SettingsVC: UITableViewController {
     
     @IBAction func dailyToggled(_ sender: UISwitch) {
         daily = sender.isOn
-    }
-    
-    var topbarHeight: CGFloat {
-        return (view.window?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0.0) +
-            (self.navigationController?.navigationBar.frame.height ?? 0.0)
     }
 
     var tableData = ["Remind Me", "Time", "Daily"]
@@ -74,9 +69,10 @@ class SettingsVC: UITableViewController {
     
 //        let date = Date().addingTimeInterval(20)
 //        let dateComponents = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: date)
-        let dateComponents = Calendar.current.dateComponents([.hour, .minute], from: Date()) // default value
+        var dateComponents = Calendar.current.dateComponents([.hour, .minute], from: Date()) // default value
         if let remindTime = reminderTime {
-            let dateComponents = Calendar.current.dateComponents([.hour, .minute], from: remindTime)
+            print("reminderTime: \(reminderTime)")
+            dateComponents = Calendar.current.dateComponents([.hour, .minute], from: remindTime)
         }
         
         let trigger = UNCalendarNotificationTrigger( dateMatching: dateComponents, repeats: daily)

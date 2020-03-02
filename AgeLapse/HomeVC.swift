@@ -60,9 +60,26 @@ class HomeVC: UIViewController, UIImagePickerControllerDelegate, UINavigationCon
             dismiss(animated: true, completion: nil)
     }
     
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+         switch segue.identifier{
+         case "create"?:
+             let createVC = segue.destination as! CreateVC
+             createVC.photoStore = photoStore
+             createVC.imageStore = imageStore
+            
+        case "settings"?:
+            print("we know it is settings identifier")
+            let settingsVC = segue.destination as! SettingsVC
+
+         default:
+             preconditionFailure("Unexpected segue identifier")
+         }// end of switch
+     }//end of prepare()
+    
     override func viewWillAppear(_ animated: Bool) {
         //TODO: get a nice formatted time (kind of hacking it together rn), and display the date it was taken
         super.viewWillAppear(animated)
+        print("photoStore.count in viewWillAppear: \(photoStore.allPhotos.count)")
         if let lastPhotoTaken = photoStore.allPhotos.last {
             imageView.image = imageStore.image(forKey: lastPhotoTaken.photoKey)
             timeSinceLastPicture = ((Date().timeIntervalSince(lastPhotoTaken.fullDate) / 60) / 60)

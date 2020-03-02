@@ -23,6 +23,7 @@
 		BAB6C44B23F1CEC600BA8F1F /* time_picker_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB6C44A23F1CEC600BA8F1F /* time_picker_cell.swift */; };
 		BABB009624089D1A00637899 /* CreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB009524089D1A00637899 /* CreateVC.swift */; };
 		BAE5560F240704BA006382AF /* daily_switch_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE5560E240704BA006382AF /* daily_switch_cell.swift */; };
+		BAEF7ED2240D776B00003B1A /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEF7ED1240D776B00003B1A /* PhotoDataSource.swift */; };
 		BAFCEBD723F1DF32003F02FC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCEBD623F1DF32003F02FC /* Settings.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		BAB6C44A23F1CEC600BA8F1F /* time_picker_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = time_picker_cell.swift; sourceTree = "<group>"; };
 		BABB009524089D1A00637899 /* CreateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVC.swift; sourceTree = "<group>"; };
 		BAE5560E240704BA006382AF /* daily_switch_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daily_switch_cell.swift; sourceTree = "<group>"; };
+		BAEF7ED1240D776B00003B1A /* PhotoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
 		BAFCEBD623F1DF32003F02FC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +121,7 @@
 			children = (
 				BA01FAEF23EE6F7300E65001 /* AppDelegate.swift */,
 				BA01FAF123EE6F7300E65001 /* SceneDelegate.swift */,
+				BAEF7ED1240D776B00003B1A /* PhotoDataSource.swift */,
 				BABB009524089D1A00637899 /* CreateVC.swift */,
 				BA98D7E623EF491C00D7F542 /* SettingsVC.swift */,
 				BA01FAF323EE6F7300E65001 /* HomeVC.swift */,
@@ -297,6 +300,7 @@
 				BAE5560F240704BA006382AF /* daily_switch_cell.swift in Sources */,
 				BA01FAF223EE6F7300E65001 /* SceneDelegate.swift in Sources */,
 				BABB009624089D1A00637899 /* CreateVC.swift in Sources */,
+				BAEF7ED2240D776B00003B1A /* PhotoDataSource.swift in Sources */,
 				BAB6C44923F1CD3900BA8F1F /* switch_cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
