@@ -22,7 +22,7 @@ class PhotoStore {
         // check to see if there are archived photos
         if let archivedPhotos = NSKeyedUnarchiver.unarchiveObject(withFile: photoArchiveURL.path) as? [Photo]{
             allPhotos = archivedPhotos
-            print("allPhotos.count in PhotoStore init(): \(allPhotos.count)")
+//            print("allPhotos.count in PhotoStore init(): \(allPhotos.count)")
         }
     }
     

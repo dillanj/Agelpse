@@ -79,9 +79,9 @@ class HomeVC: UIViewController, UIImagePickerControllerDelegate, UINavigationCon
     override func viewWillAppear(_ animated: Bool) {
         //TODO: get a nice formatted time (kind of hacking it together rn), and display the date it was taken
         super.viewWillAppear(animated)
-        print("photoStore.count in viewWillAppear: \(photoStore.allPhotos.count)")
         if let lastPhotoTaken = photoStore.allPhotos.last {
             imageView.image = imageStore.image(forKey: lastPhotoTaken.photoKey)
+//            print("in homeVC imageView.image: \(imageView.image)")
             timeSinceLastPicture = ((Date().timeIntervalSince(lastPhotoTaken.fullDate) / 60) / 60)
             print("Time since last photo: \(String(describing: timeSinceLastPicture))")
             timeSinceLastPictureLabel.text = "\(String(Int(timeSinceLastPicture))) Hours Ago"

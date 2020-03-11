@@ -23,6 +23,7 @@
 		BAB6C44B23F1CEC600BA8F1F /* time_picker_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB6C44A23F1CEC600BA8F1F /* time_picker_cell.swift */; };
 		BABB009624089D1A00637899 /* CreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB009524089D1A00637899 /* CreateVC.swift */; };
 		BAE5560F240704BA006382AF /* daily_switch_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE5560E240704BA006382AF /* daily_switch_cell.swift */; };
+		BAEC1A25241878180074343A /* PhotoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC1A24241878180074343A /* PhotoCollectionCell.swift */; };
 		BAEF7ED2240D776B00003B1A /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEF7ED1240D776B00003B1A /* PhotoDataSource.swift */; };
 		BAFCEBD723F1DF32003F02FC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCEBD623F1DF32003F02FC /* Settings.swift */; };
 /* End PBXBuildFile section */
@@ -67,6 +68,7 @@
 		BAB6C44A23F1CEC600BA8F1F /* time_picker_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = time_picker_cell.swift; sourceTree = "<group>"; };
 		BABB009524089D1A00637899 /* CreateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVC.swift; sourceTree = "<group>"; };
 		BAE5560E240704BA006382AF /* daily_switch_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daily_switch_cell.swift; sourceTree = "<group>"; };
+		BAEC1A24241878180074343A /* PhotoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionCell.swift; sourceTree = "<group>"; };
 		BAEF7ED1240D776B00003B1A /* PhotoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
 		BAFCEBD623F1DF32003F02FC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +124,7 @@
 				BA01FAEF23EE6F7300E65001 /* AppDelegate.swift */,
 				BA01FAF123EE6F7300E65001 /* SceneDelegate.swift */,
 				BAEF7ED1240D776B00003B1A /* PhotoDataSource.swift */,
+				BAEC1A24241878180074343A /* PhotoCollectionCell.swift */,
 				BABB009524089D1A00637899 /* CreateVC.swift */,
 				BA98D7E623EF491C00D7F542 /* SettingsVC.swift */,
 				BA01FAF323EE6F7300E65001 /* HomeVC.swift */,
@@ -295,6 +298,7 @@
 				BAA06AA823F5C8D700E70469 /* Photo.swift in Sources */,
 				BA01FAF023EE6F7300E65001 /* AppDelegate.swift in Sources */,
 				BAA06AA623F5C3BC00E70469 /* ImageStore.swift in Sources */,
+				BAEC1A25241878180074343A /* PhotoCollectionCell.swift in Sources */,
 				BAFCEBD723F1DF32003F02FC /* Settings.swift in Sources */,
 				BAA06AAA23F713A400E70469 /* PhotoStore.swift in Sources */,
 				BAE5560F240704BA006382AF /* daily_switch_cell.swift in Sources */,

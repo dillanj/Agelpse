@@ -17,8 +17,10 @@ class PhotoDataSource: NSObject, UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let identifier = "CollectionViewCell"
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath)
+        let identifier = "PhotoCollectionViewCell"
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath) as!
+        PhotoCollectionViewCell
+        print("in photoDataSource cell imageview: \(cell.imageView.image)")
         return cell
     }
 }

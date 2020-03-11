@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CreateVC: UIViewController {
+class CreateVC: UIViewController, UICollectionViewDelegate {
 
     @IBOutlet var collectionView: UICollectionView!
     
@@ -26,13 +26,22 @@ class CreateVC: UIViewController {
     
     
     
-    
+    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath){
+        let photo = photoDataSource.photos[indexPath.row]
+        let image = imageStore.image(forKey: photo.photoKey)
+//        print("the photo is: \(photo.photoKey)")
+        let identifier = "PhotoCollectionViewCell"
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: identifier , for: indexPath) as! PhotoCollectionViewCell
+        cell.update(with: image)
+//        cell.imageView.image = image
+    }
     
     
     override func viewDidLoad(){
         super.viewDidLoad()
         
         collectionView.dataSource = photoDataSource
+        collectionView.delegate = self
         self.photoDataSource.photos = photoStore.allPhotos
         print("when loading the createVC the photoCount is: \(photoStore.allPhotos.count)")
         self.collectionView.reloadSections(IndexSet(integer: 0))
