@@ -14,12 +14,8 @@ class PhotoCollectionViewCell: UICollectionViewCell {
     
     func update(with image: UIImage?){
         if let imageToDisplay = image {
-            print("stopping Animation")
             spinner.stopAnimating()
-            imageView.image = imageToDisplay
-            print("imageToDisplay: \(imageToDisplay)")
-            print("imageView.image: \(imageView.image)")
-            
+            imageView.image = imageToDisplay            
         } else {
             spinner.startAnimating()
             imageView.image = nil

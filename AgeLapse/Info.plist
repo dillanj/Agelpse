@@ -20,6 +20,8 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>By allowing permission, you can then add a song to your Agelpse video.</string>
 	<key>NSCameraUsageDescription</key>
 	<string>This app uses the camera for custom camera views, making it easier to take selfies."</string>
 	<key>NSPhotoLibraryUsageDescription</key>

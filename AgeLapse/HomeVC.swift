@@ -57,6 +57,7 @@ class HomeVC: UIViewController, UIImagePickerControllerDelegate, UINavigationCon
             // store the image in the imagestore for the photos key
             imageStore.setImage(image, forKey: photo.photoKey)
             imageView.image = image
+            _ = photoStore.saveChanges()
             dismiss(animated: true, completion: nil)
     }
     
@@ -68,7 +69,6 @@ class HomeVC: UIViewController, UIImagePickerControllerDelegate, UINavigationCon
              createVC.imageStore = imageStore
             
         case "settings"?:
-            print("we know it is settings identifier")
             let settingsVC = segue.destination as! SettingsVC
 
          default:
@@ -83,7 +83,7 @@ class HomeVC: UIViewController, UIImagePickerControllerDelegate, UINavigationCon
             imageView.image = imageStore.image(forKey: lastPhotoTaken.photoKey)
 //            print("in homeVC imageView.image: \(imageView.image)")
             timeSinceLastPicture = ((Date().timeIntervalSince(lastPhotoTaken.fullDate) / 60) / 60)
-            print("Time since last photo: \(String(describing: timeSinceLastPicture))")
+//            print("Time since last photo: \(String(describing: timeSinceLastPicture))")
             timeSinceLastPictureLabel.text = "\(String(Int(timeSinceLastPicture))) Hours Ago"
         }
     }

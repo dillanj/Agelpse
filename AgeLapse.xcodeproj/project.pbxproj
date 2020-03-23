@@ -15,6 +15,7 @@
 		BA01FAFC23EE6F7500E65001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA01FAFA23EE6F7500E65001 /* LaunchScreen.storyboard */; };
 		BA01FB0723EE6F7500E65001 /* AgeLapseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01FB0623EE6F7500E65001 /* AgeLapseTests.swift */; };
 		BA01FB1223EE6F7500E65001 /* AgeLapseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01FB1123EE6F7500E65001 /* AgeLapseUITests.swift */; };
+		BA19A5332419573E00FD727F /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19A5322419573E00FD727F /* ImageViewController.swift */; };
 		BA98D7E723EF491C00D7F542 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98D7E623EF491C00D7F542 /* SettingsVC.swift */; };
 		BAA06AA623F5C3BC00E70469 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA06AA523F5C3BC00E70469 /* ImageStore.swift */; };
 		BAA06AA823F5C8D700E70469 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA06AA723F5C8D700E70469 /* Photo.swift */; };
@@ -60,6 +61,7 @@
 		BA01FB0D23EE6F7500E65001 /* AgeLapseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeLapseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA01FB1123EE6F7500E65001 /* AgeLapseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeLapseUITests.swift; sourceTree = "<group>"; };
 		BA01FB1323EE6F7500E65001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA19A5322419573E00FD727F /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		BA98D7E623EF491C00D7F542 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		BAA06AA523F5C3BC00E70469 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		BAA06AA723F5C8D700E70469 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				BA01FAF123EE6F7300E65001 /* SceneDelegate.swift */,
 				BAEF7ED1240D776B00003B1A /* PhotoDataSource.swift */,
 				BAEC1A24241878180074343A /* PhotoCollectionCell.swift */,
+				BA19A5322419573E00FD727F /* ImageViewController.swift */,
 				BABB009524089D1A00637899 /* CreateVC.swift */,
 				BA98D7E623EF491C00D7F542 /* SettingsVC.swift */,
 				BA01FAF323EE6F7300E65001 /* HomeVC.swift */,
@@ -299,6 +302,7 @@
 				BA01FAF023EE6F7300E65001 /* AppDelegate.swift in Sources */,
 				BAA06AA623F5C3BC00E70469 /* ImageStore.swift in Sources */,
 				BAEC1A25241878180074343A /* PhotoCollectionCell.swift in Sources */,
+				BA19A5332419573E00FD727F /* ImageViewController.swift in Sources */,
 				BAFCEBD723F1DF32003F02FC /* Settings.swift in Sources */,
 				BAA06AAA23F713A400E70469 /* PhotoStore.swift in Sources */,
 				BAE5560F240704BA006382AF /* daily_switch_cell.swift in Sources */,

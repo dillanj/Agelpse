@@ -12,7 +12,6 @@ class PhotoDataSource: NSObject, UICollectionViewDataSource {
     var photos = [Photo]()
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        print("in collectionView numberOfItems, photos count is: \(photos.count)")
         return photos.count
     }
     
@@ -20,7 +19,6 @@ class PhotoDataSource: NSObject, UICollectionViewDataSource {
         let identifier = "PhotoCollectionViewCell"
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath) as!
         PhotoCollectionViewCell
-        print("in photoDataSource cell imageview: \(cell.imageView.image)")
         return cell
     }
 }
