@@ -8,12 +8,20 @@
 
 import UIKit
 import MediaPlayer
-import MobileCoreServices
+import AVKit
+import SwiftVideoGenerator
+import Photos
 
 
 class CreateVC: UIViewController, UICollectionViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     var audioAsset: AVAsset?
     var song: MPMediaItem!
+    var photoStore: PhotoStore!
+    var imageStore: ImageStore!
+    let photoDataSource = PhotoDataSource()
+    var videoURL: URL!
+    var vc: AVPlayerViewController!
+    var player: AVPlayer!
 
     @IBOutlet var collectionView: UICollectionView!
     
@@ -26,7 +34,7 @@ class CreateVC: UIViewController, UICollectionViewDelegate, UIImagePickerControl
         
         // check for camera
         if UIImagePickerController.isSourceTypeAvailable(.photoLibrary){
-            imagePicker.sourceType = .savedPhotosAlbum
+            imagePicker.sourceType = .photoLibrary
             imagePicker.delegate = self
             present(imagePicker, animated: true, completion: nil)
         }
@@ -43,9 +51,10 @@ class CreateVC: UIViewController, UICollectionViewDelegate, UIImagePickerControl
     
     @IBOutlet var generateButton: UIButton!
     
-    var photoStore: PhotoStore!
-    var imageStore: ImageStore!
-    let photoDataSource = PhotoDataSource()
+    @IBAction func generateButtonClicked(_ sender: Any) {
+        generateVideo()
+    }
+    
     
     
     internal func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
@@ -75,8 +84,7 @@ class CreateVC: UIViewController, UICollectionViewDelegate, UIImagePickerControl
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-//        self.collectionView.reloadSections(IndexSet(integer: 0))
-//        self.photoDataSource.photos = photoStore.allPhotos
+        self.amountLabel.text = "\(self.photoStore.allPhotos.count) Photos"
         
         
         collectionView.dataSource = photoDataSource
@@ -88,9 +96,6 @@ class CreateVC: UIViewController, UICollectionViewDelegate, UIImagePickerControl
     
     override func viewDidLoad(){
         super.viewDidLoad()
-        
-        
-        
         //styling
         addPhotosButton.layer.cornerRadius = 22
         addMusicButton.layer.cornerRadius = 22
@@ -113,12 +118,69 @@ class CreateVC: UIViewController, UICollectionViewDelegate, UIImagePickerControl
                 destinationVC.imageStore = imageStore
                 destinationVC.photoStore = photoStore
             }
-            default:
+            break
+        default:
             preconditionFailure("Unexpected segue identifier")
         }
         
     }
     
+    func generateVideo() {
+      if var audioURL1 = Bundle.main.url(forResource: "xs", withExtension: "mp3") {
+        LoadingView.lockView()
+        
+        VideoGenerator.fileName = "AgeLapse"
+        VideoGenerator.shouldOptimiseImageForVideo = true
+//        VideoGenerator.scaleWidth = 900
+        
+        var allImages = [UIImage]()
+        for p in self.photoStore.allPhotos {
+            if let i = self.imageStore.image(forKey: p.photoKey) {
+                allImages.append(i)
+            }
+        }
+        
+        if let a = self.song?.assetURL {
+            audioURL1 = a
+        }
+        VideoGenerator.current.generate(withImages: allImages, andAudios: [audioURL1] , andType: .singleAudioMultipleImage, { (progress) in
+          print(progress)
+        }) { (result) in
+          LoadingView.unlockView()
+          switch result {
+          case .success(let url):
+            print(url)
+            self.videoURL = url
+            self.player = AVPlayer(url: url)
+            self.vc = AVPlayerViewController()
+            self.vc.player = self.player
+
+            self.present(self.vc, animated: true) {
+                self.vc.player?.play()
+            }
+            PHPhotoLibrary.shared().performChanges({
+                PHAssetChangeRequest.creationRequestForAssetFromVideo(atFileURL: self.videoURL)
+            }) { saved, error in
+                if saved {
+                    let alertController = UIAlertController(title: "Your video was successfully saved", message: nil, preferredStyle: .alert)
+                    let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+                    alertController.addAction(defaultAction)
+                    self.present(alertController, animated: true, completion: nil)
+                }
+            }
+            print("successful")
+//            self.createAlertView(message: self.FinishedSingleTypeVideoGeneration)
+          case .failure(let error):
+            print(error)
+            print("unsuccessful")
+//            self.createAlertView(message: error.localizedDescription)
+          }
+        }
+      } else {
+//        self.createAlertView(message: "Cant Find Audio Files")
+        print("cant find audio files")
+      }
+    }
     
 }
 
@@ -145,19 +207,6 @@ extension CreateVC: MPMediaPickerControllerDelegate {
             let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler:nil))
             self.present(alert, animated: true, completion: nil)
-            
-           
-           
-            
-            
-            
-            //
-            //            // Get the system music player.
-            //              let musicPlayer = MPMusicPlayerController.systemMusicPlayer
-            //              musicPlayer.setQueue(with: mediaItemCollection)
-            //              mediaPicker.dismiss(animated: true)
-            //              // Begin playback.
-            //              musicPlayer.play()
 
         }
     }

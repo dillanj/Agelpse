@@ -1,0 +1,6 @@
+module Pods_AgeLapse_AgeLapseUITests {
+  umbrella header "Pods-AgeLapse-AgeLapseUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -37,4 +37,6 @@ class PhotoStore {
         print("saving photos to \(photoArchiveURL.path)")
         return NSKeyedArchiver.archiveRootObject(allPhotos, toFile: photoArchiveURL.path)
     }
+    
+
 }

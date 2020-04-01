@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0917C48267009CC976945240AE6EB3C4 /* Pods-AgeLapse-AgeLapseUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2461F21D98A0650B4ECAC196AD69FAC /* Pods-AgeLapse-AgeLapseUITests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		234912578825FE29899016CEF7972CF7 /* Pods-AgeLapseTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B11DB8B510C1B7B1EE77075163CE790E /* Pods-AgeLapseTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24071EEFA03D5C088CD03B55EE15AABD /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC88483773DAC529B04EBC1DFF1CBC3 /* ImageExtension.swift */; };
+		3A69D7F5791A9AAFCDCCF68D87ED7305 /* Pods-AgeLapseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D5BBBB300166BE0AF63130480F75D0 /* Pods-AgeLapseTests-dummy.m */; };
+		528D304BB9963E27583C5ACF097119F6 /* Pods-AgeLapse-AgeLapseUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D02880749E645BC69121AF5FB18AA4 /* Pods-AgeLapse-AgeLapseUITests-dummy.m */; };
+		593085E8CED775A4C667E86674A67A05 /* AVAssetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E4B53CE9EF9C98463D4DF63701FCE5 /* AVAssetExtension.swift */; };
+		94637FB8477CD993C44CDEBA9A58B133 /* VideoGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB75F355E983CF272377C4E14FD2317 /* VideoGenerator.swift */; };
+		95CBB6C4BDEB238AA07686B392B400EF /* SwiftVideoGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0947EF8C5FB950B2AF70A06D8245C261 /* SwiftVideoGenerator-dummy.m */; };
+		A72CAFA84EC7CDE1872FAC0F285185B4 /* Pods-AgeLapse-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA0AF946560D8308A87C71463941A18F /* Pods-AgeLapse-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B174ADF8069373F0B14537C9F1D7AFC6 /* Pods-AgeLapse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A18A745218868999C418D6FB2F4BC745 /* Pods-AgeLapse-dummy.m */; };
+		D4371CF98EC01F8B0F8AC7ED6D874364 /* SwiftVideoGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E78B4B6ADD6106E589296AB22B486CD /* SwiftVideoGenerator-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDA9AF6DBF89A4D2C9B4A936A2BA1FC1 /* VideoGeneratorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4AC1F8AE89DCEFEF4E1DD81119D2D2 /* VideoGeneratorError.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FEB78BDB9B8E73AFE97E262C03361F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 877B00E6DE7D4DC1416DB002A9C00848;
+			remoteInfo = SwiftVideoGenerator;
+		};
+		329E239AF8D76D39D58EEFD02FDA535A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 574ED9C72772A8C23DD2105C00B757F3;
+			remoteInfo = "Pods-AgeLapse";
+		};
+		6063B8C93D1A62AED7154263DA47CE37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 877B00E6DE7D4DC1416DB002A9C00848;
+			remoteInfo = SwiftVideoGenerator;
+		};
+		9F7832DCCDDFBF77966A7E54216EC2ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 877B00E6DE7D4DC1416DB002A9C00848;
+			remoteInfo = SwiftVideoGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000D4FDF543EAD73E7851073B17A23F5 /* Pods-AgeLapseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgeLapseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		038C2A27DF16844A01D7BA219CC2065E /* Pods-AgeLapseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgeLapseTests.release.xcconfig"; sourceTree = "<group>"; };
+		0947EF8C5FB950B2AF70A06D8245C261 /* SwiftVideoGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftVideoGenerator-dummy.m"; sourceTree = "<group>"; };
+		099EBF166824938120D622E50EDC4178 /* SwiftVideoGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftVideoGenerator.release.xcconfig; sourceTree = "<group>"; };
+		1EEB26DEDBFAA33EF3CFC6A2A9AD1F81 /* Pods-AgeLapse-AgeLapseUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AgeLapse-AgeLapseUITests.modulemap"; sourceTree = "<group>"; };
+		3E3657EEA2235A373DAACE373D54E784 /* SwiftVideoGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftVideoGenerator-prefix.pch"; sourceTree = "<group>"; };
+		3FD9319ED281B51B3708C590EAF80F36 /* Pods-AgeLapse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgeLapse.debug.xcconfig"; sourceTree = "<group>"; };
+		59036D9DF8516C51E1F6C0AF6F40EFB0 /* libSwiftVideoGenerator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSwiftVideoGenerator.a; path = libSwiftVideoGenerator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD57936F43151723B99C40287B839BA /* Pods-AgeLapse-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AgeLapse-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C041ECE7F70D6D29E4512653167E642 /* libPods-AgeLapse-AgeLapseUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AgeLapse-AgeLapseUITests.a"; path = "libPods-AgeLapse-AgeLapseUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC88483773DAC529B04EBC1DFF1CBC3 /* ImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageExtension.swift; path = Sources/SwiftVideoGenerator/Classes/Extensions/ImageExtension.swift; sourceTree = "<group>"; };
+		69D8B14CB037FDBD1012C70F78209308 /* Pods-AgeLapse-AgeLapseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgeLapse-AgeLapseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E5677A66716DD47A1B068D6046E91EF /* Pods-AgeLapse-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AgeLapse-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E78B4B6ADD6106E589296AB22B486CD /* SwiftVideoGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftVideoGenerator-umbrella.h"; sourceTree = "<group>"; };
+		83B2B8D96C13DA6C25AC23FC85A29B3C /* Pods-AgeLapse-AgeLapseUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AgeLapse-AgeLapseUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		95029F1BB554433156C7D02E259F41BF /* SwiftVideoGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftVideoGenerator.debug.xcconfig; sourceTree = "<group>"; };
+		9890B89E00AAB52FFBD5D75AAF18867E /* Pods-AgeLapse-AgeLapseUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AgeLapse-AgeLapseUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EB75F355E983CF272377C4E14FD2317 /* VideoGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoGenerator.swift; path = Sources/SwiftVideoGenerator/Classes/VideoGenerator.swift; sourceTree = "<group>"; };
+		A18A745218868999C418D6FB2F4BC745 /* Pods-AgeLapse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AgeLapse-dummy.m"; sourceTree = "<group>"; };
+		A5D07AA5041631F2898ABF4CB0760DB2 /* libPods-AgeLapse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AgeLapse.a"; path = "libPods-AgeLapse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF29EEE9C663C64852C7A0E729C4A19C /* Pods-AgeLapse.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AgeLapse.modulemap"; sourceTree = "<group>"; };
+		B11DB8B510C1B7B1EE77075163CE790E /* Pods-AgeLapseTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AgeLapseTests-umbrella.h"; sourceTree = "<group>"; };
+		C1EAC610C22EA92BA1BBFC0DB6A99B26 /* Pods-AgeLapseTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AgeLapseTests.modulemap"; sourceTree = "<group>"; };
+		C2461F21D98A0650B4ECAC196AD69FAC /* Pods-AgeLapse-AgeLapseUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AgeLapse-AgeLapseUITests-umbrella.h"; sourceTree = "<group>"; };
+		C4CBB70E2AE11A95895BAEE722B991C8 /* libPods-AgeLapseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AgeLapseTests.a"; path = "libPods-AgeLapseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E4B53CE9EF9C98463D4DF63701FCE5 /* AVAssetExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AVAssetExtension.swift; path = Sources/SwiftVideoGenerator/Classes/Extensions/AVAssetExtension.swift; sourceTree = "<group>"; };
+		D6D02880749E645BC69121AF5FB18AA4 /* Pods-AgeLapse-AgeLapseUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AgeLapse-AgeLapseUITests-dummy.m"; sourceTree = "<group>"; };
+		DF2F8A666705E180801A2A607EC74657 /* Pods-AgeLapseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AgeLapseTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3D5BBBB300166BE0AF63130480F75D0 /* Pods-AgeLapseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AgeLapseTests-dummy.m"; sourceTree = "<group>"; };
+		E8D132BD77EC84345BE3261D941737BE /* Pods-AgeLapse-AgeLapseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgeLapse-AgeLapseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBB8A89D5EAC12140313283D3331F999 /* SwiftVideoGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftVideoGenerator.modulemap; sourceTree = "<group>"; };
+		EC4AC1F8AE89DCEFEF4E1DD81119D2D2 /* VideoGeneratorError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoGeneratorError.swift; path = Sources/SwiftVideoGenerator/Classes/Error/VideoGeneratorError.swift; sourceTree = "<group>"; };
+		EF9846584C8003CA4E2A00D6111EC406 /* Pods-AgeLapseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AgeLapseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA0AF946560D8308A87C71463941A18F /* Pods-AgeLapse-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AgeLapse-umbrella.h"; sourceTree = "<group>"; };
+		FF3EA266900517025ED4A33A575C6A1B /* Pods-AgeLapse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgeLapse.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3817BD571B49570B84063799DE3779FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E36533F37D06EB046F93DA73A94DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D339DE20E5A555C94D9119C97638551E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49DC5877FB4204B4860BEDEA87B5590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EEBF5E0F6E02A863452EA5F10D123F3 /* Pods-AgeLapseTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1EAC610C22EA92BA1BBFC0DB6A99B26 /* Pods-AgeLapseTests.modulemap */,
+				EF9846584C8003CA4E2A00D6111EC406 /* Pods-AgeLapseTests-acknowledgements.markdown */,
+				DF2F8A666705E180801A2A607EC74657 /* Pods-AgeLapseTests-acknowledgements.plist */,
+				E3D5BBBB300166BE0AF63130480F75D0 /* Pods-AgeLapseTests-dummy.m */,
+				B11DB8B510C1B7B1EE77075163CE790E /* Pods-AgeLapseTests-umbrella.h */,
+				000D4FDF543EAD73E7851073B17A23F5 /* Pods-AgeLapseTests.debug.xcconfig */,
+				038C2A27DF16844A01D7BA219CC2065E /* Pods-AgeLapseTests.release.xcconfig */,
+			);
+			name = "Pods-AgeLapseTests";
+			path = "Target Support Files/Pods-AgeLapseTests";
+			sourceTree = "<group>";
+		};
+		3673109499335A416FAD0462689241A4 /* SwiftVideoGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				D2E4B53CE9EF9C98463D4DF63701FCE5 /* AVAssetExtension.swift */,
+				5DC88483773DAC529B04EBC1DFF1CBC3 /* ImageExtension.swift */,
+				9EB75F355E983CF272377C4E14FD2317 /* VideoGenerator.swift */,
+				EC4AC1F8AE89DCEFEF4E1DD81119D2D2 /* VideoGeneratorError.swift */,
+				B95D862FA8D4AAD876466271578B7E37 /* Support Files */,
+			);
+			name = SwiftVideoGenerator;
+			path = SwiftVideoGenerator;
+			sourceTree = "<group>";
+		};
+		3CE0ADF11DEC1A2BE6A0B2912FDC965B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEE0D293AB5839DB87A594D50870CF02 /* Pods-AgeLapse */,
+				9216C7C700CE5227F1BEF699FF2D1C4D /* Pods-AgeLapse-AgeLapseUITests */,
+				0EEBF5E0F6E02A863452EA5F10D123F3 /* Pods-AgeLapseTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9216C7C700CE5227F1BEF699FF2D1C4D /* Pods-AgeLapse-AgeLapseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EEB26DEDBFAA33EF3CFC6A2A9AD1F81 /* Pods-AgeLapse-AgeLapseUITests.modulemap */,
+				9890B89E00AAB52FFBD5D75AAF18867E /* Pods-AgeLapse-AgeLapseUITests-acknowledgements.markdown */,
+				83B2B8D96C13DA6C25AC23FC85A29B3C /* Pods-AgeLapse-AgeLapseUITests-acknowledgements.plist */,
+				D6D02880749E645BC69121AF5FB18AA4 /* Pods-AgeLapse-AgeLapseUITests-dummy.m */,
+				C2461F21D98A0650B4ECAC196AD69FAC /* Pods-AgeLapse-AgeLapseUITests-umbrella.h */,
+				E8D132BD77EC84345BE3261D941737BE /* Pods-AgeLapse-AgeLapseUITests.debug.xcconfig */,
+				69D8B14CB037FDBD1012C70F78209308 /* Pods-AgeLapse-AgeLapseUITests.release.xcconfig */,
+			);
+			name = "Pods-AgeLapse-AgeLapseUITests";
+			path = "Target Support Files/Pods-AgeLapse-AgeLapseUITests";
+			sourceTree = "<group>";
+		};
+		B95D862FA8D4AAD876466271578B7E37 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBB8A89D5EAC12140313283D3331F999 /* SwiftVideoGenerator.modulemap */,
+				0947EF8C5FB950B2AF70A06D8245C261 /* SwiftVideoGenerator-dummy.m */,
+				3E3657EEA2235A373DAACE373D54E784 /* SwiftVideoGenerator-prefix.pch */,
+				7E78B4B6ADD6106E589296AB22B486CD /* SwiftVideoGenerator-umbrella.h */,
+				95029F1BB554433156C7D02E259F41BF /* SwiftVideoGenerator.debug.xcconfig */,
+				099EBF166824938120D622E50EDC4178 /* SwiftVideoGenerator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftVideoGenerator";
+			sourceTree = "<group>";
+		};
+		BEE0D293AB5839DB87A594D50870CF02 /* Pods-AgeLapse */ = {
+			isa = PBXGroup;
+			children = (
+				AF29EEE9C663C64852C7A0E729C4A19C /* Pods-AgeLapse.modulemap */,
+				5AD57936F43151723B99C40287B839BA /* Pods-AgeLapse-acknowledgements.markdown */,
+				6E5677A66716DD47A1B068D6046E91EF /* Pods-AgeLapse-acknowledgements.plist */,
+				A18A745218868999C418D6FB2F4BC745 /* Pods-AgeLapse-dummy.m */,
+				FA0AF946560D8308A87C71463941A18F /* Pods-AgeLapse-umbrella.h */,
+				3FD9319ED281B51B3708C590EAF80F36 /* Pods-AgeLapse.debug.xcconfig */,
+				FF3EA266900517025ED4A33A575C6A1B /* Pods-AgeLapse.release.xcconfig */,
+			);
+			name = "Pods-AgeLapse";
+			path = "Target Support Files/Pods-AgeLapse";
+			sourceTree = "<group>";
+		};
+		CD7B3FE1ACD3B34E1CFB60619A485938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5D07AA5041631F2898ABF4CB0760DB2 /* libPods-AgeLapse.a */,
+				5C041ECE7F70D6D29E4512653167E642 /* libPods-AgeLapse-AgeLapseUITests.a */,
+				C4CBB70E2AE11A95895BAEE722B991C8 /* libPods-AgeLapseTests.a */,
+				59036D9DF8516C51E1F6C0AF6F40EFB0 /* libSwiftVideoGenerator.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				EBADA8D75E030A6696CFF3F96828B612 /* Pods */,
+				CD7B3FE1ACD3B34E1CFB60619A485938 /* Products */,
+				3CE0ADF11DEC1A2BE6A0B2912FDC965B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBADA8D75E030A6696CFF3F96828B612 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3673109499335A416FAD0462689241A4 /* SwiftVideoGenerator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		41F8292FABE76815CEF6E1569AE3C55A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234912578825FE29899016CEF7972CF7 /* Pods-AgeLapseTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5795E4D29008D8708421F3AF6ADCFF41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0917C48267009CC976945240AE6EB3C4 /* Pods-AgeLapse-AgeLapseUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A6E5C3C8A41AA04C8ADCDBB08DF70C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4371CF98EC01F8B0F8AC7ED6D874364 /* SwiftVideoGenerator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F582D8EE5142B3E57FD871086FB58D7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72CAFA84EC7CDE1872FAC0F285185B4 /* Pods-AgeLapse-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A55AC31032A1CE5EA412019B84D46D5 /* Pods-AgeLapse-AgeLapseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A42B87D596B4AAD317473CC8602A8A3 /* Build configuration list for PBXNativeTarget "Pods-AgeLapse-AgeLapseUITests" */;
+			buildPhases = (
+				5795E4D29008D8708421F3AF6ADCFF41 /* Headers */,
+				3E0AC7336DE68081C7D158AAE5CAE242 /* Sources */,
+				D339DE20E5A555C94D9119C97638551E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC62D77B5F94B1A95DA87B6BAA2BBE63 /* PBXTargetDependency */,
+			);
+			name = "Pods-AgeLapse-AgeLapseUITests";
+			productName = "Pods-AgeLapse-AgeLapseUITests";
+			productReference = 5C041ECE7F70D6D29E4512653167E642 /* libPods-AgeLapse-AgeLapseUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		40BCE39FF46EF5DA0642BA4F6EAD3847 /* Pods-AgeLapseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA094EE47B75CA596E9F4DBAB839968A /* Build configuration list for PBXNativeTarget "Pods-AgeLapseTests" */;
+			buildPhases = (
+				41F8292FABE76815CEF6E1569AE3C55A /* Headers */,
+				25B58D8EF63E8950AD020CAE42CC3DFF /* Sources */,
+				A2E36533F37D06EB046F93DA73A94DF6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E20EF288154310CA52145033500482B /* PBXTargetDependency */,
+				A0854643654D1352CEF6DE112571BE48 /* PBXTargetDependency */,
+			);
+			name = "Pods-AgeLapseTests";
+			productName = "Pods-AgeLapseTests";
+			productReference = C4CBB70E2AE11A95895BAEE722B991C8 /* libPods-AgeLapseTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		574ED9C72772A8C23DD2105C00B757F3 /* Pods-AgeLapse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE25615A7EE873582D5ED0A3D520CBA /* Build configuration list for PBXNativeTarget "Pods-AgeLapse" */;
+			buildPhases = (
+				F582D8EE5142B3E57FD871086FB58D7E /* Headers */,
+				20A3A4CB8316B1EC9DF851FFC1286C68 /* Sources */,
+				3817BD571B49570B84063799DE3779FD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEAFC50C02CD705A106E6C8588251975 /* PBXTargetDependency */,
+			);
+			name = "Pods-AgeLapse";
+			productName = "Pods-AgeLapse";
+			productReference = A5D07AA5041631F2898ABF4CB0760DB2 /* libPods-AgeLapse.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		877B00E6DE7D4DC1416DB002A9C00848 /* SwiftVideoGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2352233ECBD3DA12262D0A7869C77EC6 /* Build configuration list for PBXNativeTarget "SwiftVideoGenerator" */;
+			buildPhases = (
+				C1A6E5C3C8A41AA04C8ADCDBB08DF70C /* Headers */,
+				CFDD31E0AE50DAAE502CCB315E3C1ADB /* Sources */,
+				E49DC5877FB4204B4860BEDEA87B5590 /* Frameworks */,
+				9F165B662A3A6E63E0D260506F8101C7 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftVideoGenerator;
+			productName = SwiftVideoGenerator;
+			productReference = 59036D9DF8516C51E1F6C0AF6F40EFB0 /* libSwiftVideoGenerator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CD7B3FE1ACD3B34E1CFB60619A485938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				574ED9C72772A8C23DD2105C00B757F3 /* Pods-AgeLapse */,
+				2A55AC31032A1CE5EA412019B84D46D5 /* Pods-AgeLapse-AgeLapseUITests */,
+				40BCE39FF46EF5DA0642BA4F6EAD3847 /* Pods-AgeLapseTests */,
+				877B00E6DE7D4DC1416DB002A9C00848 /* SwiftVideoGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F165B662A3A6E63E0D260506F8101C7 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SwiftVideoGenerator/SwiftVideoGenerator.modulemap",
+				"${PODS_ROOT}/Headers/Public/SwiftVideoGenerator/SwiftVideoGenerator-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SwiftVideoGenerator-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftVideoGenerator/SwiftVideoGenerator.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftVideoGenerator/SwiftVideoGenerator-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20A3A4CB8316B1EC9DF851FFC1286C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B174ADF8069373F0B14537C9F1D7AFC6 /* Pods-AgeLapse-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B58D8EF63E8950AD020CAE42CC3DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A69D7F5791A9AAFCDCCF68D87ED7305 /* Pods-AgeLapseTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0AC7336DE68081C7D158AAE5CAE242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528D304BB9963E27583C5ACF097119F6 /* Pods-AgeLapse-AgeLapseUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDD31E0AE50DAAE502CCB315E3C1ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593085E8CED775A4C667E86674A67A05 /* AVAssetExtension.swift in Sources */,
+				24071EEFA03D5C088CD03B55EE15AABD /* ImageExtension.swift in Sources */,
+				95CBB6C4BDEB238AA07686B392B400EF /* SwiftVideoGenerator-dummy.m in Sources */,
+				94637FB8477CD993C44CDEBA9A58B133 /* VideoGenerator.swift in Sources */,
+				DDA9AF6DBF89A4D2C9B4A936A2BA1FC1 /* VideoGeneratorError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E20EF288154310CA52145033500482B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AgeLapse";
+			target = 574ED9C72772A8C23DD2105C00B757F3 /* Pods-AgeLapse */;
+			targetProxy = 329E239AF8D76D39D58EEFD02FDA535A /* PBXContainerItemProxy */;
+		};
+		A0854643654D1352CEF6DE112571BE48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftVideoGenerator;
+			target = 877B00E6DE7D4DC1416DB002A9C00848 /* SwiftVideoGenerator */;
+			targetProxy = 6063B8C93D1A62AED7154263DA47CE37 /* PBXContainerItemProxy */;
+		};
+		AEAFC50C02CD705A106E6C8588251975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftVideoGenerator;
+			target = 877B00E6DE7D4DC1416DB002A9C00848 /* SwiftVideoGenerator */;
+			targetProxy = 9F7832DCCDDFBF77966A7E54216EC2ED /* PBXContainerItemProxy */;
+		};
+		CC62D77B5F94B1A95DA87B6BAA2BBE63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftVideoGenerator;
+			target = 877B00E6DE7D4DC1416DB002A9C00848 /* SwiftVideoGenerator */;
+			targetProxy = 0FEB78BDB9B8E73AFE97E262C03361F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1C4F5E2041E0CE4D4579CF2EA55F6EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF3EA266900517025ED4A33A575C6A1B /* Pods-AgeLapse.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AgeLapse/Pods-AgeLapse.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30B2C67B99AAC77CBF513E1289891B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FD9319ED281B51B3708C590EAF80F36 /* Pods-AgeLapse.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AgeLapse/Pods-AgeLapse.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4395D89D2A913F226E4E06FFC2C379D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099EBF166824938120D622E50EDC4178 /* SwiftVideoGenerator.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftVideoGenerator/SwiftVideoGenerator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/SwiftVideoGenerator/SwiftVideoGenerator.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftVideoGenerator;
+				PRODUCT_NAME = SwiftVideoGenerator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C62447DFD0304DEE76263C0F59C1AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000D4FDF543EAD73E7851073B17A23F5 /* Pods-AgeLapseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AgeLapseTests/Pods-AgeLapseTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AD4573B6B57B953F8CF9612794C1EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D132BD77EC84345BE3261D941737BE /* Pods-AgeLapse-AgeLapseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AgeLapse-AgeLapseUITests/Pods-AgeLapse-AgeLapseUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5762CB3301462F8B7E80A9C2451B6CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95029F1BB554433156C7D02E259F41BF /* SwiftVideoGenerator.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftVideoGenerator/SwiftVideoGenerator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/SwiftVideoGenerator/SwiftVideoGenerator.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftVideoGenerator;
+				PRODUCT_NAME = SwiftVideoGenerator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7D137D902B38F1CCBE515A588EF112F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 038C2A27DF16844A01D7BA219CC2065E /* Pods-AgeLapseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AgeLapseTests/Pods-AgeLapseTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FBF91C8CA0A41E52ACB5EADC571F6EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69D8B14CB037FDBD1012C70F78209308 /* Pods-AgeLapse-AgeLapseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AgeLapse-AgeLapseUITests/Pods-AgeLapse-AgeLapseUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2352233ECBD3DA12262D0A7869C77EC6 /* Build configuration list for PBXNativeTarget "SwiftVideoGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5762CB3301462F8B7E80A9C2451B6CD /* Debug */,
+				4395D89D2A913F226E4E06FFC2C379D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE25615A7EE873582D5ED0A3D520CBA /* Build configuration list for PBXNativeTarget "Pods-AgeLapse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B2C67B99AAC77CBF513E1289891B31 /* Debug */,
+				1C4F5E2041E0CE4D4579CF2EA55F6EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A42B87D596B4AAD317473CC8602A8A3 /* Build configuration list for PBXNativeTarget "Pods-AgeLapse-AgeLapseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD4573B6B57B953F8CF9612794C1EC7 /* Debug */,
+				FBF91C8CA0A41E52ACB5EADC571F6EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA094EE47B75CA596E9F4DBAB839968A /* Build configuration list for PBXNativeTarget "Pods-AgeLapseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C62447DFD0304DEE76263C0F59C1AD5 /* Debug */,
+				C7D137D902B38F1CCBE515A588EF112F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

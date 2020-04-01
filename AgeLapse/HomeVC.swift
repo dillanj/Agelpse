@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Photos
 
 class HomeVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     var imageStore: ImageStore!
@@ -59,6 +60,21 @@ class HomeVC: UIViewController, UIImagePickerControllerDelegate, UINavigationCon
             imageView.image = image
             _ = photoStore.saveChanges()
             dismiss(animated: true, completion: nil)
+            UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
+//            PHPhotoLibrary.shared().performChanges({
+//                var url = self.imageStore.imageURL(forKey: photo.photoKey)
+//                print("url to photo is: \(url)")
+//                PHAssetChangeRequest.creationRequestForAssetFromImage(atFileURL: url)
+//            }) { saved, error in
+//                print("got to saving")
+//                if error != nil { print("error saving: \(error)")}
+//                if saved {
+//                    let alertController = UIAlertController(title: "Your video was successfully saved", message: nil, preferredStyle: .alert)
+//                    let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+//                    alertController.addAction(defaultAction)
+//                    self.present(alertController, animated: true, completion: nil)
+//                }
+//            }
     }
     
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

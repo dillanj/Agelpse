@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27E5AF0F646A349214844EA2 /* libPods-AgeLapseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C99CDED544E652DDB959BD /* libPods-AgeLapseTests.a */; };
 		BA01FAF023EE6F7300E65001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01FAEF23EE6F7300E65001 /* AppDelegate.swift */; };
 		BA01FAF223EE6F7300E65001 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01FAF123EE6F7300E65001 /* SceneDelegate.swift */; };
 		BA01FAF423EE6F7300E65001 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01FAF323EE6F7300E65001 /* HomeVC.swift */; };
@@ -16,6 +17,11 @@
 		BA01FB0723EE6F7500E65001 /* AgeLapseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01FB0623EE6F7500E65001 /* AgeLapseTests.swift */; };
 		BA01FB1223EE6F7500E65001 /* AgeLapseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01FB1123EE6F7500E65001 /* AgeLapseUITests.swift */; };
 		BA19A5332419573E00FD727F /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19A5322419573E00FD727F /* ImageViewController.swift */; };
+		BA44124D243427E500B5533B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA44124C243427E500B5533B /* LoadingView.swift */; };
+		BA44125D24342CBD00B5533B /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA44125C24342CBD00B5533B /* song1.mp3 */; };
+		BA44125F2434357A00B5533B /* xs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA44125E2434357A00B5533B /* xs.mp3 */; };
+		BA44126424343ACE00B5533B /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA441272243515F500B5533B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA441271243515F500B5533B /* AVFoundation.framework */; };
 		BA98D7E723EF491C00D7F542 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98D7E623EF491C00D7F542 /* SettingsVC.swift */; };
 		BAA06AA623F5C3BC00E70469 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA06AA523F5C3BC00E70469 /* ImageStore.swift */; };
 		BAA06AA823F5C8D700E70469 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA06AA723F5C8D700E70469 /* Photo.swift */; };
@@ -26,7 +32,10 @@
 		BAE5560F240704BA006382AF /* daily_switch_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE5560E240704BA006382AF /* daily_switch_cell.swift */; };
 		BAEC1A25241878180074343A /* PhotoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC1A24241878180074343A /* PhotoCollectionCell.swift */; };
 		BAEF7ED2240D776B00003B1A /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEF7ED1240D776B00003B1A /* PhotoDataSource.swift */; };
+		BAF8F56424295B1F00B8A454 /* GenerationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8F56324295B1F00B8A454 /* GenerationViewController.swift */; };
 		BAFCEBD723F1DF32003F02FC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCEBD623F1DF32003F02FC /* Settings.swift */; };
+		DB2C316144F3D5668B92298E /* libPods-AgeLapse-AgeLapseUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0912D33136583291FBCE7C /* libPods-AgeLapse-AgeLapseUITests.a */; };
+		DFFB3BD447EFB033175D5ADB /* libPods-AgeLapse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7DBC772189D9D3CE6F86CA /* libPods-AgeLapse.a */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +55,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BA44126524343ACE00B5533B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BA44126424343ACE00B5533B /* (null) in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		28A7E92F0729395D4A57E8EE /* Pods-AgeLapseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgeLapseTests.release.xcconfig"; path = "Target Support Files/Pods-AgeLapseTests/Pods-AgeLapseTests.release.xcconfig"; sourceTree = "<group>"; };
+		2A9C36763682A5BE51222FD9 /* Pods-AgeLapseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgeLapseTests.debug.xcconfig"; path = "Target Support Files/Pods-AgeLapseTests/Pods-AgeLapseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39F0C97188127410C25D3331 /* Pods_AgeLapse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgeLapse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634AD56CAE30B3269D193043 /* Pods-AgeLapse-AgeLapseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgeLapse-AgeLapseUITests.debug.xcconfig"; path = "Target Support Files/Pods-AgeLapse-AgeLapseUITests/Pods-AgeLapse-AgeLapseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D0912D33136583291FBCE7C /* libPods-AgeLapse-AgeLapseUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AgeLapse-AgeLapseUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7DBC772189D9D3CE6F86CA /* libPods-AgeLapse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AgeLapse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DF0311FE9724D7FA34A97D /* Pods-AgeLapse-AgeLapseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgeLapse-AgeLapseUITests.release.xcconfig"; path = "Target Support Files/Pods-AgeLapse-AgeLapseUITests/Pods-AgeLapse-AgeLapseUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BA01FAEC23EE6F7300E65001 /* Agelpse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agelpse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA01FAEF23EE6F7300E65001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA01FAF123EE6F7300E65001 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +92,11 @@
 		BA01FB1123EE6F7500E65001 /* AgeLapseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeLapseUITests.swift; sourceTree = "<group>"; };
 		BA01FB1323EE6F7500E65001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA19A5322419573E00FD727F /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		BA44124C243427E500B5533B /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		BA44125C24342CBD00B5533B /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
+		BA44125E2434357A00B5533B /* xs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xs.mp3; sourceTree = "<group>"; };
+		BA441271243515F500B5533B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BA599383D41BE9C180C23D1B /* Pods-AgeLapse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgeLapse.debug.xcconfig"; path = "Target Support Files/Pods-AgeLapse/Pods-AgeLapse.debug.xcconfig"; sourceTree = "<group>"; };
 		BA98D7E623EF491C00D7F542 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		BAA06AA523F5C3BC00E70469 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		BAA06AA723F5C8D700E70469 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
@@ -72,7 +107,10 @@
 		BAE5560E240704BA006382AF /* daily_switch_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daily_switch_cell.swift; sourceTree = "<group>"; };
 		BAEC1A24241878180074343A /* PhotoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionCell.swift; sourceTree = "<group>"; };
 		BAEF7ED1240D776B00003B1A /* PhotoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
+		BAF8F56324295B1F00B8A454 /* GenerationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationViewController.swift; sourceTree = "<group>"; };
 		BAFCEBD623F1DF32003F02FC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		DAEE285FE54EA91033C5F7BD /* Pods-AgeLapse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgeLapse.release.xcconfig"; path = "Target Support Files/Pods-AgeLapse/Pods-AgeLapse.release.xcconfig"; sourceTree = "<group>"; };
+		F1C99CDED544E652DDB959BD /* libPods-AgeLapseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AgeLapseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +118,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA441272243515F500B5533B /* AVFoundation.framework in Frameworks */,
+				DFFB3BD447EFB033175D5ADB /* libPods-AgeLapse.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E5AF0F646A349214844EA2 /* libPods-AgeLapseTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,12 +135,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB2C316144F3D5668B92298E /* libPods-AgeLapse-AgeLapseUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7391A3989F159B5A13833886 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA599383D41BE9C180C23D1B /* Pods-AgeLapse.debug.xcconfig */,
+				DAEE285FE54EA91033C5F7BD /* Pods-AgeLapse.release.xcconfig */,
+				634AD56CAE30B3269D193043 /* Pods-AgeLapse-AgeLapseUITests.debug.xcconfig */,
+				B9DF0311FE9724D7FA34A97D /* Pods-AgeLapse-AgeLapseUITests.release.xcconfig */,
+				2A9C36763682A5BE51222FD9 /* Pods-AgeLapseTests.debug.xcconfig */,
+				28A7E92F0729395D4A57E8EE /* Pods-AgeLapseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8CD54D98811C290F8E9C0B62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA441271243515F500B5533B /* AVFoundation.framework */,
+				9F7DBC772189D9D3CE6F86CA /* libPods-AgeLapse.a */,
+				7D0912D33136583291FBCE7C /* libPods-AgeLapse-AgeLapseUITests.a */,
+				F1C99CDED544E652DDB959BD /* libPods-AgeLapseTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA01FAE323EE6F7300E65001 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +173,9 @@
 				BA01FB0523EE6F7500E65001 /* AgeLapseTests */,
 				BA01FB1023EE6F7500E65001 /* AgeLapseUITests */,
 				BA01FAED23EE6F7300E65001 /* Products */,
+				7391A3989F159B5A13833886 /* Pods */,
+				8CD54D98811C290F8E9C0B62 /* Frameworks */,
+				BA4412702434429A00B5533B /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,11 +192,13 @@
 		BA01FAEE23EE6F7300E65001 /* AgeLapse */ = {
 			isa = PBXGroup;
 			children = (
+				BAF8F56324295B1F00B8A454 /* GenerationViewController.swift */,
 				BA01FAEF23EE6F7300E65001 /* AppDelegate.swift */,
 				BA01FAF123EE6F7300E65001 /* SceneDelegate.swift */,
-				BAEF7ED1240D776B00003B1A /* PhotoDataSource.swift */,
-				BAEC1A24241878180074343A /* PhotoCollectionCell.swift */,
 				BA19A5322419573E00FD727F /* ImageViewController.swift */,
+				BAEC1A24241878180074343A /* PhotoCollectionCell.swift */,
+				BAEF7ED1240D776B00003B1A /* PhotoDataSource.swift */,
+				BA44124C243427E500B5533B /* LoadingView.swift */,
 				BABB009524089D1A00637899 /* CreateVC.swift */,
 				BA98D7E623EF491C00D7F542 /* SettingsVC.swift */,
 				BA01FAF323EE6F7300E65001 /* HomeVC.swift */,
@@ -140,6 +211,8 @@
 				BAB6C44A23F1CEC600BA8F1F /* time_picker_cell.swift */,
 				BAFCEBD623F1DF32003F02FC /* Settings.swift */,
 				BA01FAF823EE6F7500E65001 /* Assets.xcassets */,
+				BA44125E2434357A00B5533B /* xs.mp3 */,
+				BA44125C24342CBD00B5533B /* song1.mp3 */,
 				BA01FAFA23EE6F7500E65001 /* LaunchScreen.storyboard */,
 				BA01FAFD23EE6F7500E65001 /* Info.plist */,
 			);
@@ -164,6 +237,14 @@
 			path = AgeLapseUITests;
 			sourceTree = "<group>";
 		};
+		BA4412702434429A00B5533B /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				39F0C97188127410C25D3331 /* Pods_AgeLapse.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA01FB1623EE6F7500E65001 /* Build configuration list for PBXNativeTarget "AgeLapse" */;
 			buildPhases = (
+				0DDAFA5B860B60D684D41FDC /* [CP] Check Pods Manifest.lock */,
 				BA01FAE823EE6F7300E65001 /* Sources */,
 				BA01FAE923EE6F7300E65001 /* Frameworks */,
 				BA01FAEA23EE6F7300E65001 /* Resources */,
+				BA44126524343ACE00B5533B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA01FB1923EE6F7500E65001 /* Build configuration list for PBXNativeTarget "AgeLapseTests" */;
 			buildPhases = (
+				E8E0B4945CD971E75051AB01 /* [CP] Check Pods Manifest.lock */,
 				BA01FAFE23EE6F7500E65001 /* Sources */,
 				BA01FAFF23EE6F7500E65001 /* Frameworks */,
 				BA01FB0023EE6F7500E65001 /* Resources */,
@@ -206,6 +290,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA01FB1C23EE6F7500E65001 /* Build configuration list for PBXNativeTarget "AgeLapseUITests" */;
 			buildPhases = (
+				086B97E6AB22251E2A9EB561 /* [CP] Check Pods Manifest.lock */,
 				BA01FB0923EE6F7500E65001 /* Sources */,
 				BA01FB0A23EE6F7500E65001 /* Frameworks */,
 				BA01FB0B23EE6F7500E65001 /* Resources */,
@@ -268,9 +353,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA44125F2434357A00B5533B /* xs.mp3 in Resources */,
 				BA01FAFC23EE6F7500E65001 /* LaunchScreen.storyboard in Resources */,
 				BA01FAF923EE6F7500E65001 /* Assets.xcassets in Resources */,
 				BA01FAF723EE6F7300E65001 /* Main.storyboard in Resources */,
+				BA44125D24342CBD00B5533B /* song1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +377,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		086B97E6AB22251E2A9EB561 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgeLapse-AgeLapseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DDAFA5B860B60D684D41FDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgeLapse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8E0B4945CD971E75051AB01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgeLapseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA01FAE823EE6F7300E65001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -301,6 +457,7 @@
 				BAA06AA823F5C8D700E70469 /* Photo.swift in Sources */,
 				BA01FAF023EE6F7300E65001 /* AppDelegate.swift in Sources */,
 				BAA06AA623F5C3BC00E70469 /* ImageStore.swift in Sources */,
+				BAF8F56424295B1F00B8A454 /* GenerationViewController.swift in Sources */,
 				BAEC1A25241878180074343A /* PhotoCollectionCell.swift in Sources */,
 				BA19A5332419573E00FD727F /* ImageViewController.swift in Sources */,
 				BAFCEBD723F1DF32003F02FC /* Settings.swift in Sources */,
@@ -310,6 +467,7 @@
 				BABB009624089D1A00637899 /* CreateVC.swift in Sources */,
 				BAEF7ED2240D776B00003B1A /* PhotoDataSource.swift in Sources */,
 				BAB6C44923F1CD3900BA8F1F /* switch_cell.swift in Sources */,
+				BA44124D243427E500B5533B /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +638,7 @@
 		};
 		BA01FB1723EE6F7500E65001 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA599383D41BE9C180C23D1B /* Pods-AgeLapse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -498,6 +657,7 @@
 		};
 		BA01FB1823EE6F7500E65001 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAEE285FE54EA91033C5F7BD /* Pods-AgeLapse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -516,6 +676,7 @@
 		};
 		BA01FB1A23EE6F7500E65001 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9C36763682A5BE51222FD9 /* Pods-AgeLapseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -538,6 +699,7 @@
 		};
 		BA01FB1B23EE6F7500E65001 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A7E92F0729395D4A57E8EE /* Pods-AgeLapseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -560,6 +722,7 @@
 		};
 		BA01FB1D23EE6F7500E65001 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634AD56CAE30B3269D193043 /* Pods-AgeLapse-AgeLapseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +743,7 @@
 		};
 		BA01FB1E23EE6F7500E65001 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9DF0311FE9724D7FA34A97D /* Pods-AgeLapse-AgeLapseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

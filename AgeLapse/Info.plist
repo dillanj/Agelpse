@@ -24,8 +24,10 @@
 	<string>By allowing permission, you can then add a song to your Agelpse video.</string>
 	<key>NSCameraUsageDescription</key>
 	<string>This app uses the camera for custom camera views, making it easier to take selfies."</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This app wants to save images and/or videos to your library</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>"This app uses the camera feature to allow selfies to be taken directly from app."</string>
+	<string>This app uses the camera feature to allow selfies to be taken directly from app."</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
