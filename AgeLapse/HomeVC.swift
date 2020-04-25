@@ -15,6 +15,7 @@ class HomeVC: UIViewController, UIImagePickerControllerDelegate, UINavigationCon
     var photo: Photo!
     var timeSinceLastPicture: Double!
     
+    
     let dateFormatter:  DateFormatter = {
         let formatter = DateFormatter()
         formatter.dateStyle = .none
@@ -32,20 +33,30 @@ class HomeVC: UIViewController, UIImagePickerControllerDelegate, UINavigationCon
     @IBOutlet var imageView: UIImageView!
     
     @IBAction func takePicture(_ sender: UIBarButtonItem) {
-        // TODO: check last picture time, see if they want to take a pic and override...
         let imagePicker = UIImagePickerController()
+        let screenSize: CGRect = imagePicker.view.bounds
+        let gridImage = UIImage(named: "guide-grid.png")
+        let guideView:UIImageView = UIImageView()
+        guideView.image = gridImage
+        guideView.contentMode = UIView.ContentMode.scaleToFill
+        guideView.frame.size.width = screenSize.width
+        guideView.frame.size.height = screenSize.height
+        guideView.center = imagePicker.view.center
+        
+        
         
         // check for camera
         if UIImagePickerController.isSourceTypeAvailable(.camera){
             imagePicker.sourceType = .camera
             imagePicker.cameraDevice = .front
+            imagePicker.cameraOverlayView = guideView
         } else {
             // TODO: RAISE AN ERROR AND STAY ON HOME SCREEN pg 205
             imagePicker.sourceType = .photoLibrary
         }
         
         imagePicker.delegate = self
-        present(imagePicker, animated: true, completion: nil)
+        present(imagePicker, animated: true, completion: nil )
     }
     
     
@@ -61,20 +72,6 @@ class HomeVC: UIViewController, UIImagePickerControllerDelegate, UINavigationCon
             _ = photoStore.saveChanges()
             dismiss(animated: true, completion: nil)
             UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
-//            PHPhotoLibrary.shared().performChanges({
-//                var url = self.imageStore.imageURL(forKey: photo.photoKey)
-//                print("url to photo is: \(url)")
-//                PHAssetChangeRequest.creationRequestForAssetFromImage(atFileURL: url)
-//            }) { saved, error in
-//                print("got to saving")
-//                if error != nil { print("error saving: \(error)")}
-//                if saved {
-//                    let alertController = UIAlertController(title: "Your video was successfully saved", message: nil, preferredStyle: .alert)
-//                    let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-//                    alertController.addAction(defaultAction)
-//                    self.present(alertController, animated: true, completion: nil)
-//                }
-//            }
     }
     
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

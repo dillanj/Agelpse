@@ -22,6 +22,7 @@
 		BA44125F2434357A00B5533B /* xs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA44125E2434357A00B5533B /* xs.mp3 */; };
 		BA44126424343ACE00B5533B /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BA441272243515F500B5533B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA441271243515F500B5533B /* AVFoundation.framework */; };
+		BA6DD04D2447AE7D007E05D8 /* guide-grid.png in Resources */ = {isa = PBXBuildFile; fileRef = BA6DD04C2447AE7D007E05D8 /* guide-grid.png */; };
 		BA98D7E723EF491C00D7F542 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98D7E623EF491C00D7F542 /* SettingsVC.swift */; };
 		BAA06AA623F5C3BC00E70469 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA06AA523F5C3BC00E70469 /* ImageStore.swift */; };
 		BAA06AA823F5C8D700E70469 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA06AA723F5C8D700E70469 /* Photo.swift */; };
@@ -97,6 +98,7 @@
 		BA44125E2434357A00B5533B /* xs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xs.mp3; sourceTree = "<group>"; };
 		BA441271243515F500B5533B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		BA599383D41BE9C180C23D1B /* Pods-AgeLapse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgeLapse.debug.xcconfig"; path = "Target Support Files/Pods-AgeLapse/Pods-AgeLapse.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6DD04C2447AE7D007E05D8 /* guide-grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "guide-grid.png"; path = "../../../design/guide-grid.png"; sourceTree = "<group>"; };
 		BA98D7E623EF491C00D7F542 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		BAA06AA523F5C3BC00E70469 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		BAA06AA723F5C8D700E70469 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 				BAB6C44A23F1CEC600BA8F1F /* time_picker_cell.swift */,
 				BAFCEBD623F1DF32003F02FC /* Settings.swift */,
 				BA01FAF823EE6F7500E65001 /* Assets.xcassets */,
+				BA6DD04C2447AE7D007E05D8 /* guide-grid.png */,
 				BA44125E2434357A00B5533B /* xs.mp3 */,
 				BA44125C24342CBD00B5533B /* song1.mp3 */,
 				BA01FAFA23EE6F7500E65001 /* LaunchScreen.storyboard */,
@@ -355,6 +358,7 @@
 			files = (
 				BA44125F2434357A00B5533B /* xs.mp3 in Resources */,
 				BA01FAFC23EE6F7500E65001 /* LaunchScreen.storyboard in Resources */,
+				BA6DD04D2447AE7D007E05D8 /* guide-grid.png in Resources */,
 				BA01FAF923EE6F7500E65001 /* Assets.xcassets in Resources */,
 				BA01FAF723EE6F7300E65001 /* Main.storyboard in Resources */,
 				BA44125D24342CBD00B5533B /* song1.mp3 in Resources */,
